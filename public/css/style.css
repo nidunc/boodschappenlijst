@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+.productPrice,
+.productTotalCost,
+#totalCost {
+    text-align: right;
+}
+
+th,
+td {
+    border: 1px solid #888;
+    padding: 10px;
+}
+
+form {
+    display: table;
+}
+
+form div {
+    display: table-row;
+}
+
+form label {
+    display: table-cell;
+    white-space: nowrap;
+}
+
+form input {
+    display: table-cell;
+}
+
+form .tfoot {
+    display: table-footer-group;
+    text-align: center;
+}
+
+form button {
+    display: table-cell;
+}
